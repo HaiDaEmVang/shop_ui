@@ -1,8 +1,9 @@
 .item{
-    width: 21%;
+    /* width: 21%; */
 }
 .item img{
     width: 100%;
+    object-fit: cover;
 }
 .item p{
     margin: 6px 0px;

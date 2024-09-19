@@ -57,11 +57,11 @@ const CartItems = () => {
               <h3>{currency}{getTotalCartAmount()}</h3>
             </div>
           </div>
-          <button>PROCEED TO CHECKOUT</button>
+          <button className="rounded-lg hover:bg-[eb423f]/80">PROCEED TO CHECKOUT</button>
         </div>
         <div className="cartitems-promocode">
           <p>If you have a promo code, Enter it here</p>
-          <div className="cartitems-promobox">
+          <div className="cartitems-promobox  rounded-lg overflow-hidden">
             <input type="text" placeholder="promo code" />
             <button>Submit</button>
           </div>
