@@ -18,7 +18,7 @@ import LoginSignup from "./Pages/LoginSignup";
 import { ShopSuggest } from "./Pages/ShopSuggest";
 
 
-export const backend_url = 'https://shop-server-4z3h.onrender.com';
+export const backend_url = 'https://shop-server-v60o.onrender.com';
 // export const backend_url = 'http://localhost:4000'
 export const currency = '$';
 
